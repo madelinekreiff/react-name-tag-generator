@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https://.github.io/csb-1y58k/precache-manifest.a8964617781e64a17c0522451d9360d3.js"
+  "https://madelinekreiff.github.io/react-name-tag-generator/precache-manifest.a8964617781e64a17c0522451d9360d3.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("https://.github.io/csb-1y58k/index.html", {
+workbox.routing.registerNavigationRoute("https://madelinekreiff.github.io/react-name-tag-generator/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
